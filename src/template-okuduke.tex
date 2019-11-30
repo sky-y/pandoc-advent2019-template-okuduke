@@ -1,0 +1,32 @@
+\backmatter
+$okuduke.header$
+
+$for(okuduke.message)$
+$okuduke.message$
+$endfor$
+
+\vspace*{\stretch{1}}
+
+\begin{center}
+\textsf{$title$}
+$if(subtitle)$
+
+$subtitle$
+$endif$
+
+\begin{tabular}{ll}
+$for(okuduke.rev)$
+$it.revision$ & $it.date$ \\
+$endfor$
+\end{tabular}
+
+\begin{tabular}{ll} \toprule
+    発行      & $okuduke.publisher$ \\
+    著者      & $author$ \\
+    連絡先    & $okuduke.contact$ \\
+    $for(okuduke.others)$
+    $it.name$ & $it.content$ \\
+    $endfor$
+    印刷      & $okuduke.printing$  \\ \bottomrule
+\end{tabular}
+\end{center}

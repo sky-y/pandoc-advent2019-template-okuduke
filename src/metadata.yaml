@@ -1,0 +1,34 @@
+---
+title: すごい本
+subtitle: すごいサブタイトル
+author: 藤原 惟
+
+# LaTeX用の設定
+documentclass: bxjsbook
+classoption:
+  - b5j
+  - pandoc
+header-includes: |
+  \usepackage{booktabs}
+
+# 奥付用の設定 (LaTeXの書式で書く)
+okuduke:
+  header: |
+    \thispagestyle{empty}
+  message: |
+    \begin{itemize}
+    \item 引用・私的利用の範囲を超える無断転載・複製・複写・インターネット上への掲載（SNS・ネットオークション・フリマアプリ含む）を禁じます。
+    \item 落丁・乱丁の場合は下記連絡先までご一報ください。
+    \end{itemize}
+  rev:
+    - revision: 初版
+      date: 2019年11月30日
+  publisher: ソラソルファ
+  contact: \verb|foo@example.com|
+  others:
+    - name: Twitter
+      content: \verb|@skyy_writing|
+    - name: Webサイト
+      content: \verb|https://example.com/|
+  printing: 株式会社○○
+---
