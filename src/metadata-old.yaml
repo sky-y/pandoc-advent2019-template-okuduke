@@ -6,7 +6,7 @@ author: 藤原 惟
 # LaTeX用の設定
 documentclass: bxjsbook
 classoption:
-  - b5j
+  - b5
   - pandoc
 header-includes: |
   \usepackage{booktabs}
