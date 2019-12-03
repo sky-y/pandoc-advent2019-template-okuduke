@@ -2,8 +2,8 @@
 
 ## ファイル名
 md               := src/body.md                 # 本文
-meta             := src/metadata-old.yaml           # YAMLメタデータファイル
-template_okuduke := src/template-okuduke-old.tex    # Pandoc: 奥付用テンプレート
+meta             := src/metadata.yaml           # YAMLメタデータファイル
+template_okuduke := src/template-okuduke.tex    # Pandoc: 奥付用テンプレート
 okuduke          := ./okuduke.tex                 # 奥付用texファイル
 pdf              := ./book.pdf                    # 出力
 
